@@ -67,10 +67,10 @@ const db = mysql.createPool({
 	// password: 'password',
 	// database: 'media-tracker',
 
-	host: process.env.MYSQL_HOST,
-	user: process.env.MYSQL_USER,
-	password: process.env.MYSQL_SECRET,
-	database: process.env.MYSQL_DB,
+	host: process.env.MYSQLHOST,
+	user: process.env.MYSQLUSER,
+	password: process.env.MYSQLPASSWORD,
+	database: process.env.MYSQLDATABASE,
 });
 
 // db.getConnection(function (err, connection) {
